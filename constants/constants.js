@@ -1,0 +1,1 @@
+exports.appUrl = 'https://982f1b7b.ngrok.io'
