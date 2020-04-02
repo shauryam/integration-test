@@ -9,6 +9,10 @@ To run and expose this application from local machine on shopify you will need a
   -     npm install
   
 # Running the app
+  - Create a .env file in the root of the project folder and put these three variables:
+  -   SHOPIFY_API_KEY=\<API Key\> // to be copied from developer dashboard from of the app on Shopify
+  -   SHOPIFY_API_SECRET=\<API Secret Key\> // to be copied from developer dashboard from of the app on Shopify
+  -   PORT=8000
   - Run tunneling service on port 8000
   - If using ngrok:
   -     ngrok http 8000
